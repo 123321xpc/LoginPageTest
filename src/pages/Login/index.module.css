@@ -1,0 +1,28 @@
+/* 基本布局 */
+
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .ant-form-item-label {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .ant-form-item-label {
+        font-size: 12px;
+    }
+
+    .ant-input, .ant-input-password, .ant-btn {
+        font-size: 14px;
+    }
+}
